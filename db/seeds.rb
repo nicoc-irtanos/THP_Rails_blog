@@ -1,5 +1,5 @@
 require 'faker'
 
-10.times do
-  post = Post.create(user: User.order("RANDOM()").first, title: Faker::Book.title, content: Faker::ChuckNorris.fact)
+5.times do |index|
+  category = Category.create(name: "Category#{index}")
 end
