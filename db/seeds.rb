@@ -15,3 +15,9 @@ end
 15.times do
   comment = Comment.create(content: Faker::OnePiece.quote, user_id: rand(User.first.id..User.last.id), post_id: rand(Post.first.id..Post.last.id))
 end
+
+# Création likes
+
+15.times do
+  like = Like.create(user_id: rand(User.first.id..User.last.id), post_id: rand(Post.first.id..Post.last.id))
+end
