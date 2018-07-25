@@ -6,6 +6,8 @@ Ruby version : 2.5.1
 
 run ```bundle install``` after cloning it in your local machine
 
+Run ```rails db:seeds``` to get default database
+
 ### General Informations
 
 Check the db/migrate folder to understand all updates that have been done
