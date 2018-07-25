@@ -1,24 +1,19 @@
-# README
+# My first blog with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+Ruby version : 2.5.1
 
-* Ruby version
+run ```bundle install``` after cloning it in your local machine
 
-* System dependencies
+### General Informations
 
-* Configuration
+Check the db/migrate folder to understand all updates that have been done
 
-* Database creation
+You may also check the ```schema.rb``` file in the db directory as well as ```seeds.rb```
 
-* Database initialization
+Models are in the ```app/models``` directory
 
-* How to run the test suite
+Note: my data is messy and makes no sense, but I have data, which is the only thing that matters for now
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please take it easy when correcting! :wink2:
