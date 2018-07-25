@@ -4,3 +4,5 @@ class AddLikeToPostAndToUser < ActiveRecord::Migration[5.2]
     add_reference :likes, :post, foreign_key: true
   end
 end
+
+# Relations de likes à Post et User

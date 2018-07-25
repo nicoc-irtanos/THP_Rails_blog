@@ -4,3 +4,5 @@ class AddPostAndUserToComment < ActiveRecord::Migration[5.2]
     add_reference :comments, :post, foreign_key:true
   end
 end
+
+# Création de la relation Post/User/Comments
